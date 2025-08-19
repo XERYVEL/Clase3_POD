@@ -51,7 +51,7 @@ public class Main implements Runnable {
         System.out.print("Ingrese el precio del producto: ");
         double price = Double.parseDouble(scanner.nextLine());
 
-        Producto producto = new Producto(id, name, price);
+        Producto producto = new Ropa(id, name, price);
         tienda.agregarProducto(producto);
     }
 }
