@@ -1,9 +1,9 @@
 package edu.uca;
 
 public class Producto {
-    private int id;
-    private String nombre;
-    private double precio;
+    protected int id;
+    protected String nombre;
+    protected double precio;
 
     public Producto(int id, String nombre, double precio) {
         this.id = id;
